@@ -1,0 +1,52 @@
+.tile {
+    position: absolute;
+    width: 44px;
+    height: 50px;
+}
+
+.e {
+    left: 698px;
+    top: 40px;
+}
+
+.g {
+    left: 0px;
+    top: 0px;
+}
+
+.h {
+    left: 50px;
+    top: 0px;
+}
+
+.l {
+    left: 100px;
+    top: 0px;
+}
+
+.o {
+    left: 604px;
+    top: 40px;
+}
+
+.r {
+    left: 651px;
+    top: 40px;
+}
+
+.u {
+    left: 150px;
+    top: 0px;
+}
+
+.board {
+    width: 782px;
+    height: 872px;
+    border: solid red 1px;
+    background: url(../images/board.png);
+    background-size: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* changes anchor point(?) */
+}
